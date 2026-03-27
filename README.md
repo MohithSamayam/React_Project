@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+1. bootstrap setup:
+npm install bootstrap@5.0.2
+
+2. to check installation status
+npm list bootstrap
+
+3. import css files
+4. import js files
+
+5. unistall
+npm uninstall bootstrap
+
+6. React Routing
+-> npm install react-router-dom
+-> imoprt {BrowserRouter as Router,Route,Rotes} from 'react-router-dom';
+
+**********************************************************************************
+React Hooks:
+
+1. useState->
+it lets you create and store a value inside your component that you can change over time.
+think of it like a box where you keep something and you can update what's inside whenever you want.
+
+2. useEffect->
+it lets you run some code after component renders(or when certain change)
+it's like saying:"Hey React, when you show this component on the screen, run this code."
+
+
+  npm install json-server
+npx json-server db.json
